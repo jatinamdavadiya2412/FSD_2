@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h2>Feedback Form</h2>
+        <form action="/submit" method="POST">
+            Name: <input name="uname" required><br><br>
+            Email: <input name="email" type="email" required><br><br>
+            Message: <textarea name="message" required></textarea><br><br>
+            Rating: 
+            <input type="radio" name="rating" value="Bad"> Bad
+            <input type="radio" name="rating" value="Average"> Average
+            <input type="radio" name="rating" value="Good"> Good
+            <input type="radio" name="rating" value="Excellent"> Excellent<br><br>
+            <button type="submit">Submit</button>
+        </form>
+</body>
+</html>
